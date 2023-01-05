@@ -1,0 +1,138 @@
+[2023-01-06 01:42:56.158] [info]  Hello, log
+[2023-01-06 01:42:56.163] [info]  Application version1.0.0
+[2023-01-06 01:42:58.046] [info]  Error in auto-updater. Error: Unable to find latest version on GitHub (https://api.github.com/repos/yusuf-zafar/auto-update-electron/releases/latest), please ensure a production release exists: HttpError: 404 
+"method: GET url: https://api.github.com/repos/yusuf-zafar/auto-update-electron/releases/latest\n\nPlease double check that your authentication token is correct. Due to security reasons, actual status maybe not reported, but 404.\n"
+Headers: {
+  "server": "GitHub.com",
+  "date": "Thu, 05 Jan 2023 20:12:57 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "x-oauth-scopes": "admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages",
+  "x-accepted-oauth-scopes": "repo",
+  "github-authentication-token-expiration": "<stripped sensitive data>",
+  "x-github-media-type": "github.v3; format=json",
+  "x-github-api-version-selected": "2022-11-28",
+  "x-ratelimit-limit": "5000",
+  "x-ratelimit-remaining": "4991",
+  "x-ratelimit-reset": "1672953120",
+  "x-ratelimit-used": "9",
+  "x-ratelimit-resource": "core",
+  "access-control-expose-headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset",
+  "access-control-allow-origin": "*",
+  "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+  "x-frame-options": "deny",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "0",
+  "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+  "content-security-policy": "default-src 'none'",
+  "vary": "Accept-Encoding, Accept, X-Requested-With",
+  "content-encoding": "gzip",
+  "x-github-request-id": "7C8B:6419:54926F:5FD958:63B72F49"
+}
+    at createHttpError (C:\Users\asima\AppData\Local\Programs\autoupdater-2\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:14:12)
+    at ElectronHttpExecutor.handleResponse (C:\Users\asima\AppData\Local\Programs\autoupdater-2\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:116:20)
+    at ClientRequest.<anonymous> (C:\Users\asima\AppData\Local\Programs\autoupdater-2\resources\app.asar\node_modules\builder-util-runtime\out\httpExecutor.js:82:26)
+    at ClientRequest.emit (node:events:513:28)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49128)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+[2023-01-06 01:57:56.170] [info]  checking for update...
+[2023-01-06 01:57:58.388] [info]  Update available
+[2023-01-06 01:58:24.381] [info]  Download in progress
+[2023-01-06 01:58:24.382] [info]  {
+  total: 69576386,
+  delta: 6162158,
+  transferred: 6162158,
+  percent: 8.856680196065373,
+  bytesPerSecond: 6149858
+}
+[2023-01-06 01:58:25.381] [info]  Download in progress
+[2023-01-06 01:58:25.382] [info]  {
+  total: 69576386,
+  delta: 6187191,
+  transferred: 12349349,
+  percent: 17.749339553221404,
+  bytesPerSecond: 6168506
+}
+[2023-01-06 01:58:26.383] [info]  Download in progress
+[2023-01-06 01:58:26.384] [info]  {
+  total: 69576386,
+  delta: 6243995,
+  transferred: 18593344,
+  percent: 26.723641552753257,
+  bytesPerSecond: 6189529
+}
+[2023-01-06 01:58:27.388] [info]  Download in progress
+[2023-01-06 01:58:27.389] [info]  {
+  total: 69576386,
+  delta: 6433015,
+  transferred: 25026359,
+  percent: 35.969616185583426,
+  bytesPerSecond: 6242544
+}
+[2023-01-06 01:58:28.389] [info]  Download in progress
+[2023-01-06 01:58:28.390] [info]  {
+  total: 69576386,
+  delta: 6324599,
+  transferred: 31350958,
+  percent: 45.0597678355987,
+  bytesPerSecond: 6257676
+}
+[2023-01-06 01:58:29.391] [info]  Download in progress
+[2023-01-06 01:58:29.392] [info]  {
+  total: 69576386,
+  delta: 6541376,
+  transferred: 37892334,
+  percent: 54.46148640143511,
+  bytesPerSecond: 6302783
+}
+[2023-01-06 01:58:30.393] [info]  Download in progress
+[2023-01-06 01:58:30.394] [info]  {
+  total: 69576386,
+  delta: 6217545,
+  transferred: 44109879,
+  percent: 63.39777262935158,
+  bytesPerSecond: 6288834
+}
+[2023-01-06 01:58:31.401] [info]  Download in progress
+[2023-01-06 01:58:31.402] [info]  {
+  total: 69576386,
+  delta: 6004526,
+  transferred: 50114405,
+  percent: 72.02789319928172,
+  bytesPerSecond: 6247121
+}
+[2023-01-06 01:58:32.402] [info]  Download in progress
+[2023-01-06 01:58:32.403] [info]  {
+  total: 69576386,
+  delta: 6416640,
+  transferred: 56531045,
+  percent: 81.25033254817231,
+  bytesPerSecond: 6265216
+}
+[2023-01-06 01:58:33.403] [info]  Download in progress
+[2023-01-06 01:58:33.403] [info]  {
+  total: 69576386,
+  delta: 6329664,
+  transferred: 62860709,
+  percent: 90.34776396692982,
+  bytesPerSecond: 6271020
+}
+[2023-01-06 01:58:34.477] [info]  Download in progress
+[2023-01-06 01:58:34.477] [info]  {
+  total: 69576386,
+  delta: 5762642,
+  transferred: 68623351,
+  percent: 98.63023210202381,
+  bytesPerSecond: 6183398
+}
+[2023-01-06 01:58:34.621] [info]  Download in progress
+[2023-01-06 01:58:34.622] [info]  {
+  total: 69576386,
+  delta: 953035,
+  transferred: 69576386,
+  percent: 100,
+  bytesPerSecond: 6188969
+}
+[2023-01-06 01:58:34.646] [info]  update-downloaded
+[2023-01-06 01:58:58.274] [info]  Hello, log
+[2023-01-06 01:58:58.279] [info]  Application version2.0.0
+[2023-01-06 01:59:00.364] [info]  Update not available
